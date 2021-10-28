@@ -56,7 +56,7 @@ while True:
             connection.starttls()
             connection.login(user=my_email, password=password)
             connection.sendmail(from_addr=my_email, to_addrs="muninilynne65@gmail.com",
-                                msg=f"Subject:ISS NOTIFIER\n\nHey Lynne, The ISS is close, Look Up🤸🏽‍♀️!")
+                                msg=f"Subject:ISS NOTIFIER\n\nHey Lynne, The ISS is close!")
 
 
 
